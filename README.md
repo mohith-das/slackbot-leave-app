@@ -1,6 +1,14 @@
 # SlackBot Leave App
 
-Google Apps Script webhook that logs leave requests from a Slack slash command into a Google Sheet named `Leave Log`.
+Slack slash-command webhook that logs leave requests into a Google Sheet.
+
+## Highlights
+- Parses `from/to/reason` fields from a single command.
+- Appends structured rows to `Leave Log`.
+- Simple Apps Script Web App deployment.
+
+## Tech
+Apps Script, Slack, Google Sheets
 
 ## Setup
 1. Open the target Google Sheet and go to Extensions -> Apps Script.
